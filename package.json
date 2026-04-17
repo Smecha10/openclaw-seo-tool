@@ -1,0 +1,19 @@
+{
+  "name": "openclaw-seo-tool",
+  "version": "1.0.0",
+  "description": "OpenClaw SEO automation tool with AgentMail account creation and keyword placement",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "install-skills": "cp skills/*.js ~/.openclaw/skills/ && echo 'Skills installed!'",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+  },
+  "keywords": ["openclaw", "seo", "automation", "agentmail", "keyword-research"],
+  "author": "Smecha10",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
