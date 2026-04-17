@@ -1,0 +1,141 @@
+{
+  "_comment": "Edit this file to customize platforms and target sites. DA = Domain Authority (higher is better for SEO).",
+
+  "account_platforms": [
+    {
+      "name": "reddit",
+      "signupUrl": "https://www.reddit.com/register",
+      "loginUrl": "https://www.reddit.com/login",
+      "searchUrl": "https://www.reddit.com/search/?q=",
+      "da": 91,
+      "enabled": true,
+      "notes": "Best for local subreddits like r/provo, r/Utah, r/homeimprovement"
+    },
+    {
+      "name": "quora",
+      "signupUrl": "https://www.quora.com/sign-up",
+      "loginUrl": "https://www.quora.com",
+      "searchUrl": "https://www.quora.com/search?q=",
+      "da": 93,
+      "enabled": true,
+      "notes": "Great for informational keyword intent. Answers rank well in Google."
+    },
+    {
+      "name": "medium",
+      "signupUrl": "https://medium.com/m/signin",
+      "loginUrl": "https://medium.com/m/signin",
+      "searchUrl": "https://medium.com/search?q=",
+      "da": 95,
+      "enabled": true,
+      "notes": "Best for longer-form content and informational keywords. Uses magic link login."
+    },
+    {
+      "name": "nextdoor",
+      "signupUrl": "https://nextdoor.com/register",
+      "loginUrl": "https://nextdoor.com/login",
+      "searchUrl": "https://nextdoor.com/search/?q=",
+      "da": 89,
+      "enabled": true,
+      "notes": "Hyper-local platform. Excellent for local service businesses in specific neighborhoods."
+    },
+    {
+      "name": "yelp",
+      "signupUrl": "https://biz.yelp.com/signup",
+      "loginUrl": "https://www.yelp.com/login",
+      "searchUrl": "https://www.yelp.com/search?find_desc=",
+      "da": 94,
+      "enabled": false,
+      "notes": "Disabled by default. Best for adding business reviews, not keyword comments."
+    }
+  ],
+
+  "no_signup_targets": [
+    {
+      "name": "City-Data Utah Forum",
+      "url": "https://www.city-data.com/forum/utah/",
+      "searchUrl": "https://www.city-data.com/forum/search.php?searchid=&do=process&query=",
+      "da": 71,
+      "enabled": true,
+      "requiresAccount": false,
+      "notes": "Active Utah community forum. Good for local service discussions."
+    },
+    {
+      "name": "Houzz Discussions",
+      "url": "https://www.houzz.com/discussions",
+      "searchUrl": "https://www.houzz.com/discussions/search?q=",
+      "da": 90,
+      "enabled": true,
+      "requiresAccount": false,
+      "notes": "Home improvement community. High DA and very relevant for home services."
+    },
+    {
+      "name": "Angi Articles",
+      "url": "https://www.angi.com/articles/",
+      "searchUrl": "https://www.angi.com/articles/?q=",
+      "da": 85,
+      "enabled": true,
+      "requiresAccount": false,
+      "notes": "Home services focused. Articles often allow comments."
+    },
+    {
+      "name": "Bob Vila Community",
+      "url": "https://www.bobvila.com/",
+      "searchUrl": "https://www.bobvila.com/search#stq=",
+      "da": 72,
+      "enabled": true,
+      "requiresAccount": false,
+      "notes": "Home improvement articles with open comment sections."
+    },
+    {
+      "name": "This Old House",
+      "url": "https://www.thisoldhouse.com/",
+      "searchUrl": "https://www.thisoldhouse.com/search?q=",
+      "da": 78,
+      "enabled": true,
+      "requiresAccount": false,
+      "notes": "Trusted home improvement brand. Comments carry good authority."
+    },
+    {
+      "name": "Family Handyman Forum",
+      "url": "https://www.familyhandyman.com/",
+      "searchUrl": "https://www.familyhandyman.com/search/?q=",
+      "da": 74,
+      "enabled": true,
+      "requiresAccount": false,
+      "notes": "DIY community with active Q&A sections."
+    }
+  ],
+
+  "local_subreddits": [
+    "r/provo",
+    "r/Utah",
+    "r/SaltLakeCity",
+    "r/homeimprovement",
+    "r/pestcontrol",
+    "r/lawncare",
+    "r/HomeImprovement",
+    "r/UtahHomeowners"
+  ],
+
+  "keyword_seeds": {
+    "pest_control": [
+      "pest control",
+      "exterminator",
+      "bug removal",
+      "rodent control",
+      "ant control",
+      "spider control",
+      "wasp removal",
+      "termite inspection"
+    ],
+    "locations": [
+      "Provo Utah",
+      "Orem Utah",
+      "Spanish Fork Utah",
+      "Springville Utah",
+      "Mapleton Utah",
+      "Payson Utah",
+      "Utah County"
+    ]
+  }
+}
